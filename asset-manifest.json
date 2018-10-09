@@ -1,7 +1,7 @@
 {
-  "main.css": "/my-zodiac-sign/static/css/main.7c59c6fa.chunk.css",
-  "main.js": "/my-zodiac-sign/static/js/main.41dfedca.chunk.js",
-  "main.js.map": "/my-zodiac-sign/static/js/main.41dfedca.chunk.js.map",
+  "main.css": "/my-zodiac-sign/static/css/main.0a0ad283.chunk.css",
+  "main.js": "/my-zodiac-sign/static/js/main.ba206df7.chunk.js",
+  "main.js.map": "/my-zodiac-sign/static/js/main.ba206df7.chunk.js.map",
   "static/js/1.126e78e9.chunk.js": "/my-zodiac-sign/static/js/1.126e78e9.chunk.js",
   "static/js/1.126e78e9.chunk.js.map": "/my-zodiac-sign/static/js/1.126e78e9.chunk.js.map",
   "runtime~main.js": "/my-zodiac-sign/static/js/runtime~main.bfd0223b.js",
@@ -18,8 +18,8 @@
   "static/media/capricorn.png": "/my-zodiac-sign/static/media/capricorn.541f7ce9.png",
   "static/media/aquarius.png": "/my-zodiac-sign/static/media/aquarius.e6739948.png",
   "static/media/taurus.png": "/my-zodiac-sign/static/media/taurus.244ae94a.png",
-  "static/css/main.7c59c6fa.chunk.css.map": "/my-zodiac-sign/static/css/main.7c59c6fa.chunk.css.map",
+  "static/css/main.0a0ad283.chunk.css.map": "/my-zodiac-sign/static/css/main.0a0ad283.chunk.css.map",
   "index.html": "/my-zodiac-sign/index.html",
-  "precache-manifest.29edf4ea62c1d191eb5ad1c4e93e1dc7.js": "/my-zodiac-sign/precache-manifest.29edf4ea62c1d191eb5ad1c4e93e1dc7.js",
+  "precache-manifest.cb41179602a3049021cc2ba2be0813cd.js": "/my-zodiac-sign/precache-manifest.cb41179602a3049021cc2ba2be0813cd.js",
   "service-worker.js": "/my-zodiac-sign/service-worker.js"
 }

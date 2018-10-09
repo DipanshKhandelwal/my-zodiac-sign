@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.2/workbox-sw.js");
 
 importScripts(
-  "/my-zodiac-sign/precache-manifest.29edf4ea62c1d191eb5ad1c4e93e1dc7.js"
+  "/my-zodiac-sign/precache-manifest.cb41179602a3049021cc2ba2be0813cd.js"
 );
 
 workbox.clientsClaim();
