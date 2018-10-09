@@ -4,8 +4,8 @@ self.__precacheManifest = [
     "url": "/my-zodiac-sign/static/media/leo.a6a45bbc.png"
   },
   {
-    "revision": "ba206df781036b211090",
-    "url": "/my-zodiac-sign/static/css/main.0a0ad283.chunk.css"
+    "revision": "41dfedca49aab5f2c9c3",
+    "url": "/my-zodiac-sign/static/css/main.7c59c6fa.chunk.css"
   },
   {
     "revision": "126e78e926381e220a1c",
@@ -32,8 +32,8 @@ self.__precacheManifest = [
     "url": "/my-zodiac-sign/static/media/cancer.f0bc8d6b.png"
   },
   {
-    "revision": "ba206df781036b211090",
-    "url": "/my-zodiac-sign/static/js/main.ba206df7.chunk.js"
+    "revision": "41dfedca49aab5f2c9c3",
+    "url": "/my-zodiac-sign/static/js/main.41dfedca.chunk.js"
   },
   {
     "revision": "767fa5efdb309d0f6bb90a99e9833896",
@@ -64,7 +64,7 @@ self.__precacheManifest = [
     "url": "/my-zodiac-sign/static/media/pisces.dbc3fae6.png"
   },
   {
-    "revision": "176022ff8150ca13782746f91104a022",
+    "revision": "c9f49d6db7a5ff7c14ce8603cf625bc4",
     "url": "/my-zodiac-sign/index.html"
   }
 ];
