@@ -42,3 +42,9 @@
   padding: 0.5rem;
   align-items: center;
 }
+
+a {
+  color: white;
+  position: absolute;
+  bottom: 1%;
+}
