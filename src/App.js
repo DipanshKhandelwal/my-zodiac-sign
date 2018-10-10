@@ -105,6 +105,7 @@ class App extends Component {
               <h1> Your zodiac sign is {this.state.sign} !</h1>
             </div>
           )}
+          <a href="https://github.com/DipanshKhandelwal/my-zodiac-sign"> Link to Github Repo</a>
         </header>
       </div>
     );
