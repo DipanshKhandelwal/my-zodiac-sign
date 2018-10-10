@@ -2,7 +2,7 @@
   "name": "my-zodiac-sign",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://dipanshkhandelwal.github.io/my-zodiac-sign/",
+  "homepage": "http://zodiacsigns.js.org",
   "dependencies": {
     "gh-pages": "^2.0.1",
     "react": "^16.5.2",
