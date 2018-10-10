@@ -1,14 +1,14 @@
 body {
   margin: 0;
   padding: 0;
-  font-family: 'Barrio', -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
-    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
-    sans-serif;
+  font-family: "Barrio", -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto",
+    "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    "Lato", sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
 code {
-  font-family: 'Barrio', source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+  font-family: "Barrio", source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
