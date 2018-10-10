@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.2/workbox-sw.js");
 
 importScripts(
-  "/my-zodiac-sign/precache-manifest.04ef5ed14e63c6e2741c30b4959926a1.js"
+  "zodiacsigns.js.org/precache-manifest.3de54f5c2524cba64f6da34d74916e9f.js"
 );
 
 workbox.clientsClaim();
@@ -28,7 +28,7 @@ self.__precacheManifest = [].concat(self.__precacheManifest || []);
 workbox.precaching.suppressWarnings();
 workbox.precaching.precacheAndRoute(self.__precacheManifest, {});
 
-workbox.routing.registerNavigationRoute("/my-zodiac-sign/index.html", {
+workbox.routing.registerNavigationRoute("zodiacsigns.js.org/index.html", {
   
   blacklist: [/^\/_/,/\/[^\/]+\.[^\/]+$/],
 });
