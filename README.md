@@ -1,3 +1,6 @@
+
+[![Build Status](https://travis-ci.com/manishrw/my-zodiac-sign.svg?branch=master)
+
 # Zodiac Signs
 Zodiac Signs is a web app developed in React. This web appcan be used to check your zodiac signs.
 
