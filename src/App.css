@@ -1,5 +1,6 @@
 .App {
   text-align: center;
+  display: grid;
 }
 
 .App-logo {
@@ -16,6 +17,7 @@
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
+  font-family: Lato, sans-serif;
 }
 
 @keyframes App-logo-spin {
@@ -25,4 +27,18 @@
   to {
     transform: rotate(35deg);
   }
+}
+
+.Birthday-div {
+  border: 2px solid white;
+  border-radius: 5px;
+  align-content: center;
+  display: flex;
+  padding: 1rem;
+}
+
+.datepicker-div {
+  display: flex;
+  padding: 0.5rem;
+  align-items: center;
 }
