@@ -96,7 +96,7 @@ class App extends Component {
               src={zodiacSigns[this.state.sign]}
               className="App-logo"
               alt="logo"
-              style={{ margin: "60px" }}
+              style={{ margin: "30px" }}
             />
           ) : null}
           {this.state.date === "0000-00-00" ? null : (
