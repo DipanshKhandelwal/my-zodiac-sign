@@ -12,6 +12,7 @@ import sagittarius from "./static/images/zodiac-signs/sagittarius.png";
 import capricorn from "./static/images/zodiac-signs/capricorn.png";
 import aquarius from "./static/images/zodiac-signs/aquarius.png";
 import pisces from "./static/images/zodiac-signs/pisces.png";
+import octocat from "./static/images/Octocat.png";
 
 import "./App.css";
 
@@ -105,6 +106,15 @@ class App extends Component {
               <h1> Your zodiac sign is {this.state.sign} !</h1>
             </div>
           )}
+          <a
+            className="github-link"
+            href="https://github.com/DipanshKhandelwal/my-zodiac-sign"
+            target="_new">
+              <img
+                src={octocat}
+                alt="My Zodiac sign on github"
+              />
+          </a>
         </header>
       </div>
     );
