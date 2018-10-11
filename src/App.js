@@ -34,7 +34,9 @@ Object.freeze(zodiacSigns);
 class App extends Component {
   state = {
     sign: "",
-    date: "0000-00-00"
+    date: "",
+    horoscope: "",
+    error: ""
   };
 
   get_zodiac_sign = ({ date }) => {
@@ -65,44 +67,79 @@ class App extends Component {
       return "Scorpio";
     else if ((month === 11 && day >= 23) || (month === 12 && day <= 21))
       return "Sagittarius";
+    else
+      return "";
   };
+
+  getHoroscope() {
+    fetch("https://www.horoscopes-and-astrology.com/json")
+      .then(res => res.json())
+      .then(
+        (result) => {
+          if (this.state.sign !== "") {
+            let horoscope = result.dailyhoroscope[this.state.sign];
+            horoscope = horoscope.substring(0, horoscope.indexOf("<"));
+            this.setState({
+              horoscope,
+              error: "",
+            })
+          } else {
+            this.setState({ 
+              horoscope: "",
+              error: ""
+            });
+          }
+        },
+        (error) => {
+          this.setState({ error: "Sorry! Your horoscope could not be loaded today." });
+        }
+      )
+  }
 
   date_changed = event => {
     this.setState({
-      date: event.target.value,
+      date: event.target.value ? event.target.value : "",
       sign: this.get_zodiac_sign({ date: event.target.value })
     });
+    this.getHoroscope();
   };
 
   render() {
+    const { horoscope, date, sign, error } = this.state;
     return (
       <div className="App">
         <header className="App-header">
-          <h1>Find your zodiac sign !!</h1>
+          <h1>Find your zodiac sign!!</h1>
           <div className="Birthday-div">
             <form>
               <label>Birthday: </label>
               <div>
                 <input
+                  className="birthday-input"
                   type="date"
-                  value={this.state.date}
+                  value={date}
                   onChange={event => this.date_changed(event)}
                 />
               </div>
             </form>
           </div>
-          {this.state.sign ? (
+          {sign ? (
             <img
-              src={zodiacSigns[this.state.sign]}
+              src={zodiacSigns[sign]}
               className="App-logo"
               alt="logo"
               style={{ margin: "30px" }}
             />
           ) : null}
-          {this.state.date === "0000-00-00" ? null : (
-            <div>
-              <h1>Your birthday is {this.state.date}</h1>
-              <h1> Your zodiac sign is {this.state.sign} !</h1>
+          {date === "" ? null : (
+            <div
+              className="result"
+            >
+              <h1>Your birthday is {date}</h1>
+              <h1> Your zodiac sign is {sign}!</h1>
+              <h2>Your Horoscope for today:<br/>
+                {error === "" ? horoscope : error}
+              </h2>
             </div>
           )}
         </header>

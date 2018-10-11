@@ -1,44 +1,60 @@
 .App {
-  text-align: center;
-  display: grid;
-}
-
-.App-logo {
-  animation: App-logo-spin infinite 4s alternate;
-  height: 25vmin;
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-  font-family: Lato, sans-serif;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(-35deg);
+    text-align: center;
+    display: grid;
   }
-  to {
-    transform: rotate(35deg);
+  
+  .App-logo {
+    animation: App-logo-spin infinite 4s alternate;
+    height: 25vmin;
   }
-}
-
-.Birthday-div {
-  border: 2px solid white;
-  border-radius: 5px;
-  align-content: center;
-  display: flex;
-  padding: 1rem;
-}
-
-.datepicker-div {
-  display: flex;
-  padding: 0.5rem;
-  align-items: center;
-}
+  
+  .App-header {
+    background-color: #282c34;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(10px + 2vmin);
+    color: white;
+    font-family: Lato, sans-serif;
+  }
+  
+  @keyframes App-logo-spin {
+    from {
+      transform: rotate(-35deg);
+    }
+    to {
+      transform: rotate(35deg);
+    }
+  }
+  
+  .Birthday-div {
+    border: 2px solid white;
+    border-radius: 5px;
+    align-content: center;
+    display: flex;
+    padding: 1rem;
+  }
+  
+  .birthday-input {
+    font-size: calc(10px + 1vmin);
+    font-family: Lato, sans-serif;
+    margin-top: 10px;
+  }
+  
+  input[type=date]::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    display: none;
+  }
+  
+  .datepicker-div {
+    display: flex;
+    padding: 0.5rem;
+    align-items: center;
+  }
+  
+  .result {
+    padding: 20px;
+  }
+  
