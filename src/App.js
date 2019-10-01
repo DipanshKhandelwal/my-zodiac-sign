@@ -31,6 +31,9 @@ const zodiacSigns = {
 };
 Object.freeze(zodiacSigns);
 
+
+const octocat = require('./octocat.png');
+
 class App extends Component {
   state = {
     sign: "",
@@ -84,7 +87,7 @@ class App extends Component {
               error: "",
             })
           } else {
-            this.setState({ 
+            this.setState({
               horoscope: "",
               error: ""
             });
@@ -109,6 +112,9 @@ class App extends Component {
     return (
       <div className="App">
         <header className="App-header">
+          <a href="https://github.com/DipanshKhandelwal/my-zodiac-sign">
+            <img src={octocat} alt="octocat" height="40px" style={{ paddingTop: '10px' }} />
+          </a>
           <h1>Find your zodiac sign!!</h1>
           <div className="Birthday-div">
             <form>
@@ -137,7 +143,7 @@ class App extends Component {
             >
               <h1>Your birthday is {date}</h1>
               <h1> Your zodiac sign is {sign}!</h1>
-              <h2>Your Horoscope for today:<br/>
+              <h2>Your Horoscope for today:<br />
                 {error === "" ? horoscope : error}
               </h2>
             </div>
